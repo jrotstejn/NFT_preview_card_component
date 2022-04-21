@@ -35,9 +35,13 @@ span {
     color: hsl(0, 0%, 100%); 
 }
 
-.cardImage img {
+.cardImages img {
     width: 280px; 
     border-radius: 5%;
+}
+
+.cardImages img:hover {
+    filter: opacity(0.6) drop-shadow(0 0 0 hsl(178, 100%, 50%)); 
 }
 
 .cardUnderText {
@@ -54,8 +58,16 @@ span {
     font-weight: bold;
 }
 
+.credits span:hover {
+    color:hsl(178, 100%, 50%);
+}
+
 .cardDays {
     color:hsl(215, 51%, 70%); 
+}
+
+.cardText h1:hover {
+    color:hsl(178, 100%, 50%);
 }
 
 .credits {
